@@ -1,0 +1,22 @@
+[
+    {
+        "username":"Hamza",
+        "lastMessage":"Where are you?"
+    },
+    {
+        "username":"Abdullah",
+        "lastMessage":"How are you?"
+    },
+    {
+        "username":"Waqas",
+        "lastMessage":"I'm fine and you??"
+    },
+    {
+        "username":"Haroon",
+        "lastMessage":"I'll take care of it?"
+    },
+    {
+        "username":"Ahmed",
+        "lastMessage":"Ok Bye"
+    }
+]

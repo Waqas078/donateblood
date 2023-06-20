@@ -1,0 +1,22 @@
+[
+    {
+        "userid":"1",
+        "lastMessage":"Where are you?"
+    },
+    {
+        "userid":"2",
+        "lastMessage":"How are you?"
+    },
+    {
+        "userid":"1",
+        "lastMessage":"I'm fine and you??"
+    },
+    {
+        "userid":"1",
+        "lastMessage":"I'll take care of it?"
+    },
+    {
+        "userid":"2",
+        "lastMessage":"Ok Bye"
+    }
+]

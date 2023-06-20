@@ -1,0 +1,197 @@
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+.hhr {
+  color: darkred;
+  margin-left: 250px;
+}
+.headi {
+  color: darkred;
+  padding-top: 2rem;
+}
+.knight {
+  background: url("images/imgg1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.overlayy {
+  background-image: linear-gradient(
+    to right,
+    rgba(235, 169, 179, 0.58),
+    rgba(152, 11, 33, 0.78)
+  );
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.section {
+  width: 100%;
+  margin: 5rem auto;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+.section-center {
+  margin: 0 auto;
+  width: 100vw;
+  height: 500px;
+  padding-bottom: 50px;
+  max-width: 1500px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+article {
+  padding: 4rem;
+  margin-top: -40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+article.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+article.lastSlide {
+  transform: translateX(-100%);
+}
+article.nextSlide {
+  transform: translateX(100%);
+}
+
+article h4 {
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 0.25rem;
+}
+.title {
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
+  color: hsl(209, 34%, 30%);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.text {
+  max-width: 350em;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 2rem;
+  line-height: 2;
+  color: white;
+}
+.prevouss,
+.nextouss {
+  position: absolute;
+  top: 200px;
+  transform: translateY(-50%);
+  background: pink;
+  color: #fff;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: grid;
+  place-items: center;
+  border-color: transparent;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.prevouss:hover,
+.nextouss:hover {
+  background: Darkred;
+}
+.prevouss {
+  left: 0;
+}
+.nextouss {
+  right: 0;
+}
+@media (min-width: 800px) {
+  .text {
+    max-width: 45em;
+  }
+  .prevous,
+  .nextous {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+  }
+}
+.boddy {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 100%;
+  line-height: 1.6;
+  color: #000;
+  background-color: transparent;
+}
+@media (min-width: 20em) {
+  .boddy {
+    font-size: 102.5%;
+  }
+}
+@media (min-width: 30em) {
+  .boddy {
+    font-size: 105%;
+  }
+}
+@media (min-width: 54em) {
+  .boddy {
+    font-size: 107.5%;
+  }
+}
+@media (min-width: 64em) {
+  .boddy {
+    font-size: 110%;
+  }
+}
+@media (min-width: 76.5em) {
+  .boddy {
+    font-size: 115%;
+  }
+}
+@media (min-width: 114em) {
+  .boddy {
+    font-size: 125%;
+  }
+}
+.absloute-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  animation: fade-in 0.8s ease-in-out both 1s;
+}

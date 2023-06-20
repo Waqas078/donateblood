@@ -1,0 +1,23 @@
+/* @import "~antd/dist/antd.css"; */
+.Content-top {
+  padding-top: 50px;
+  margin-top: 30px;
+  border: 5px solid grey;
+  border-radius: 20px;
+}
+.overlay {
+  background-image: linear-gradient(
+    to right,
+    rgba(235, 169, 179, 0.58),
+    rgba(152, 11, 33, 0.98)
+  );
+}
+.AdminMenu {
+  background: white;
+}
+.Linkss {
+  text-decoration: "none";
+}
+.hui {
+  color: white;
+}

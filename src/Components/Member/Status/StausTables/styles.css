@@ -1,0 +1,31 @@
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.customers td,
+.customers th {
+  border: 1px solid #ddd;
+  width: 25%;
+  padding: 8px;
+}
+
+.customers tr {
+  background: transparent;
+  color: white;
+}
+.customers tr:hover {
+  background-color: rgb(33, 30, 69);
+}
+
+.customers th {
+  padding-top: 12px;
+  width: 25%;
+  padding-bottom: 12px;
+  text-align: center;
+  background: transparent;
+  box-shadow: 0 0px 10px white, 0 6px 6px rgba(0, 0, 0, 0.23);
+  color: #d1d5db;
+}

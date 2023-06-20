@@ -1,0 +1,78 @@
+.MemNavbar {
+  backdrop-filter: saturate(300%) blur(50px);
+  background: #d1d5db;
+  height: 80px;
+  display: flex;
+  padding: 0 30px;
+  border-radius: 10px;
+  width: 80%;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.Span1 {
+  color: red;
+  font-size: 30px;
+  margin-right: 5px;
+  font-family: Bradley Hand, cursive;
+  font-style: oblique;
+}
+.Span2 {
+  color: blue;
+  font-size: 30px;
+  font-family: Bradley Hand, cursive;
+  font-style: oblique;
+}
+.Span3 {
+  color: red;
+  font-size: 30px;
+  font-size: 30px;
+  font-family: Bradley Hand, cursive;
+  font-style: oblique;
+}
+.Span4 {
+  color: blue;
+  font-family: Bradley Hand, cursive;
+  font-style: oblique;
+  font-size: 30px;
+}
+.toggleb {
+  color: transparent;
+  border: none;
+}
+.toggleb:hover {
+  color: transparent;
+}
+.Dtoggle {
+  background: Skyblue;
+  color: Darkred;
+  border: none;
+  border-radius: 50px;
+}
+.Dtoggle:hover {
+  color: transparent;
+  background: transparent;
+}
+.Dmenu {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: saturate(200%) blur(30px);
+  opacity: 12 !important;
+}
+.Dlink {
+  color: blue;
+}
+.Dlink:hover {
+  color: red;
+}
+.offcanvas {
+  backdrop-filter: saturate(200%) blur(30px);
+  opacity: 12 !important;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+}
+.Linkas {
+  color: blue;
+}
+.Linkas:hover {
+  color: red;
+}

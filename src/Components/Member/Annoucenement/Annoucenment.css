@@ -1,0 +1,8 @@
+.Annouce{
+    width:90%;
+    height:700px;
+    border:10px solid White;
+    margin-left:35px;
+    background:grey;
+    overflow:scroll;
+}

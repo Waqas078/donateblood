@@ -1,0 +1,28 @@
+.Customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top:50px;
+  }
+  
+  .Customers td, .Customers th {
+    border: 1px solid #ddd;
+    width: 25%;    
+    padding: 8px;
+  }
+  
+  .Customers tr{
+    background:transparent;
+    color:white;
+  }; 
+  .Customers tr:hover {background-color: #ddd;}
+  
+  .Customers th {
+    padding-top: 12px;
+    width: 15%;
+    padding-bottom: 12px;
+    text-align: center;
+    background:transparent;
+    box-shadow: 0 0px 10px white, 0 6px 6px rgba(0,0,0,0.23);
+    color:#D1D5DB;
+  }

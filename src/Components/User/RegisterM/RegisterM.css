@@ -1,0 +1,609 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body {
+  background-color: #fff;
+  font-family: Montserrat;
+  overflow-x: hidden;
+}
+
+article,
+aside,
+details,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bg-illustration {
+  position: relative;
+  height: 100vh;
+  width: 1194px;
+  background: url("img0.jpg") no-repeat center center scroll;
+  background-size: cover;
+  float: left;
+  -webkit-animation: bgslide 2.3s forwards;
+  animation: bgslide 2.3s forwards;
+}
+.bg-illustration .imgg {
+  width: 600px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: auto;
+  margin-left: -100px;
+  margin-top: -140px;
+}
+
+@-webkit-keyframes bgslide {
+  from {
+    left: -100%;
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    width: 1194px;
+    opacity: 1;
+  }
+}
+
+@keyframes bgslide {
+  from {
+    left: -100%;
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    width: 1194px;
+    opacity: 1;
+  }
+}
+
+.register {
+  max-height: 100vh;
+  overflow-y: auto;
+  float: left;
+  margin: 0 auto;
+  width: calc(100% - 1194px);
+}
+.register .container {
+  width: 505px;
+  margin: 0 auto;
+  position: relative;
+}
+.register .container h1 {
+  margin-top: 100px;
+  color: Darkred;
+  font-size: 35px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 0.5vh;
+}
+.abc {
+  color: Darkred;
+}
+.register .container .register-form {
+  margin-top: 40px;
+}
+.register .container .register-form form {
+  display: -ms-grid;
+  display: grid;
+}
+.register .container .register-form form input {
+  font-size: 16px;
+  font-weight: normal;
+  background: rgba(57, 57, 57, 0.07);
+  margin: 12.5px 0;
+  height: 68px;
+  border: none;
+  padding: 0 30px;
+  border-radius: 10px;
+}
+::placeholder {
+  color: darkred;
+  text-transform: uppercase;
+}
+.register .container .register-form form button[type="submit"] {
+  background: -webkit-linear-gradient(110deg, Darkred 0%, #fdd6bd 100%);
+  background: -o-linear-gradient(110deg, Darkred 0%, #fdd6bd 100%);
+  background: linear-gradient(-20deg, Darkred 0%, #fdd6bd 100%);
+  border: none;
+  margin-top: 1px;
+  width: 240px;
+  height: 58px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+  font-size: 20px;
+}
+.register .container .register-form form button[type="submit"]:hover::after {
+  opacity: 1;
+}
+.register .container .register-form form button[type="submit"]::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  right: 0;
+  bottom: 0;
+  background: -webkit-linear-gradient(110deg, #fdd6bd 0%, Darkred 100%);
+  background: -o-linear-gradient(110deg, #fdd6bd 0%, Darkred 100%);
+  background: linear-gradient(-20deg, #fdd6bd 0%, Darkred 100%);
+}
+.siz {
+  margin-top: 20px;
+  margin-left: 130px;
+  margin-bottom: -100px;
+}
+.LineWra {
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.Line::after,
+.Line::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background: rgb(189, 44, 44);
+  width: 35%;
+}
+.Line::after {
+  left: 0;
+  bottom: 500px;
+  margin-left: 55px;
+}
+.Line::before {
+  right: 0;
+  bottom: 500px;
+  margin-right: 55px;
+}
+.circl {
+  margin-left: 5%;
+  font-size: large;
+  font-weight: bold;
+  color: darkred;
+}
+.register .container .remembe-form {
+  position: relative;
+  margin-top: -30px;
+}
+.register .container .remembe-form input[type="checkbox"] {
+  margin-top: 11px;
+  color: #fdd6bd;
+}
+.register .container .remembe-form span {
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  top: 32px;
+  color: darkred;
+  margin-left: 15px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1680px) {
+  .bg-illustration {
+    width: 50%;
+    -webkit-animation: none;
+    animation: none;
+  }
+
+  .register {
+    width: 50%;
+  }
+}
+/* Display 12", iPad PRO Portrait, iPad landscape */
+@media only screen and (max-width: 1023px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  @-webkit-keyframes slideIn {
+    from {
+      left: -100%;
+      opacity: 0;
+    }
+    to {
+      left: 0;
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      left: -100%;
+      opacity: 0;
+    }
+    to {
+      left: 0;
+      opacity: 1;
+    }
+  }
+  .bg-illustration {
+    float: none;
+    background: url("img0.jpg") center center;
+    background-size: cover;
+    -webkit-animation: slideIn 0.8s ease-in-out forwards;
+    animation: slideIn 0.8s ease-in-out forwards;
+    width: 100%;
+    height: 190px;
+    text-align: center;
+  }
+  .bg-illustration .imgg {
+    width: 300px;
+    height: auto;
+    margin: 20px auto !important;
+    text-align: center;
+  }
+  .bg-illustration .burger-btn {
+    left: 0px;
+    top: -100px;
+    display: block;
+    position: absolute;
+  }
+  .bg-illustration .burger-btn span {
+    display: block;
+    height: 10px;
+    margin: 60px;
+    background-color: #fff;
+  }
+  .bg-illustration .burger-btn span:nth-child(1) {
+    width: 37px;
+  }
+  .bg-illustration .burger-btn span:nth-child(2) {
+    width: 28px;
+  }
+  .bg-illustration .burger-btn span:nth-child(3) {
+    width: 20px;
+  }
+
+  .register {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .register .container {
+    -webkit-animation: slideIn 0.8s ease-in-out forwards;
+    animation: slideIn 0.8s ease-in-out forwards;
+    width: 85%;
+    float: none;
+  }
+  .register .container h1 {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  .register .container .register-form {
+    margin-top: 90px;
+  }
+  .register .container .register-form form input {
+    height: 45px;
+  }
+  .register .container .register-form form button[type="submit"] {
+    height: 45px;
+    margin-top: 50px;
+  }
+  .register .container .register-form .remembe-form {
+    position: relative;
+    margin-top: -15px;
+  }
+  .register .container .register-form .remembe-form span {
+    font-size: 16px;
+    margin-top: 22px;
+    top: inherit;
+  }
+  .siz {
+    margin-top: 0.5rem;
+    margin-bottom: -4rem;
+  }
+
+  .LineWra {
+    margin-top: 8px;
+    margin-left: -160px;
+  }
+  .Line::after,
+  .Line::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: rgb(189, 44, 44);
+    width: 42%;
+  }
+  .Line::after {
+    display: none;
+  }
+  .Line::before {
+    display: none;
+  }
+  .circl {
+    margin-left: 5%;
+    font-size: large;
+    font-weight: bold;
+    color: darkred;
+    text-decoration-line: underline;
+  }
+  .register .container .register-form form button[type="submit"] {
+    background: -webkit-linear-gradient(110deg, Darkred 0%, #fdd6bd 100%);
+    background: -o-linear-gradient(110deg, Darkred 0%, #fdd6bd 100%);
+    background: linear-gradient(-20deg, Darkred 0%, #fdd6bd 100%);
+    border: none;
+    margin-top: 1px;
+    width: 240px;
+    height: 58px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .register .container .register-form form button[type="submit"]:hover::after {
+    opacity: 1;
+  }
+  .register .container .register-form form button[type="submit"]::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    right: 0;
+    bottom: 0;
+    background: -webkit-linear-gradient(110deg, #fdd6bd 0%, Darkred 100%);
+    background: -o-linear-gradient(110deg, #fdd6bd 0%, Darkred 100%);
+    background: linear-gradient(-20deg, #fdd6bd 0%, Darkred 100%);
+  }
+
+  @media only screen and (max-width: 424px) {
+    .forget-pass {
+      position: absolute;
+      right: inherit;
+      bottom: 130px;
+      margin: 0 !important;
+    }
+    .register .container .register-form .remembe-form {
+      position: relative;
+      margin-top: -13px;
+      bottom: -18px;
+    }
+    .siz {
+      margin-top: 0.5rem;
+      margin-left: -5rem;
+      margin-bottom: -4rem;
+    }
+    .LineWra {
+      margin-top: 0.5rem;
+      margin-left: 5rem;
+    }
+    .Line::after,
+    .Line::before {
+      content: "";
+      position: absolute;
+      height: 2px;
+      background: rgb(189, 44, 44);
+      width: 15%;
+    }
+    .Line::after {
+      display: none;
+    }
+    .Line::before {
+      display: none;
+    }
+    .circl {
+      margin-left: 0rem;
+      font-size: 1rem;
+      font-weight: bold;
+      color: darkred;
+      text-decoration-line: underline;
+    }
+  }
+}
+
+:root {
+  --color-pink: Darkred;
+  --color-dark-pink: skyblue;
+  --color-blue: #f1eded;
+  --color-white: #ffffff;
+
+  --transition-fast: 0.1s;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+.InputGroup {
+  display: flex;
+  height: 60px;
+  width: 485px;
+  margin-bottom: 10px;
+}
+
+/**
+  * 1. Hides the input from view
+  * 2. Ensures the element does not consume any space
+  */
+
+input[type="radio"] {
+  visibility: hidden; /* 1 */
+  height: 0; /* 2 */
+  width: 0; /* 2 */
+}
+
+label {
+  display: flex;
+  flex: auto;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--color-blue);
+  color: darkred;
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: color --transition-fast ease-out,
+    background-color --transition-fast ease-in;
+  user-select: none;
+  margin-right: 8px;
+}
+
+label:last-of-type {
+  margin-right: 0;
+}
+
+input[type="radio"]:checked + label {
+  background-color: var(--color-dark-pink);
+  color: var(--color-white);
+}
+
+input[type="radio"]:hover:not(:checked) + label {
+  background-color: var(--color-pink);
+  color: var(--color-white);
+}
+
+@media only screen and (max-width: 425px) {
+  :root {
+    --color-pink: Darkred;
+    --color-dark-pink: skyblue;
+    --color-blue: #f1eded;
+    --color-white: #ffffff;
+
+    --transition-fast: 0.1s;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+  .InputGroup {
+    display: flex;
+    height: 40px;
+    width: 350px;
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: flex;
+    flex: auto;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--color-blue);
+    color: darkred;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: color --transition-fast ease-out,
+      background-color --transition-fast ease-in;
+    user-select: none;
+    margin-right: 8px;
+  }
+  .bg-illustration .imgg {
+    width: 300px;
+    height: auto;
+    margin: 20px auto !important;
+    text-align: center;
+  }
+  .bg-illustration .burger-btn {
+    left: -40px;
+    top: -100px;
+    display: block;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .InputGroup {
+    height: 70px;
+    width: 260px;
+    margin-bottom: 10px;
+  }
+  label {
+    padding: 3px 5px;
+  }
+}
+@media only screen and (max-width: 424px) {
+  .InputGroup {
+    height: 70px;
+    width: 260px;
+    margin-bottom: 10px;
+  }
+
+  label {
+    padding: 3px 5px;
+  }
+}
+@media only screen and (max-width: 424px) {
+  .InputGroup {
+    height: 70px;
+    width: 260px;
+    margin-bottom: 10px;
+  }
+
+  label {
+    padding: 3px 5px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 550px) {
+  .InputGroup {
+    height: 50px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  label {
+    padding: 3px 5px;
+  }
+}

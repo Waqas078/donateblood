@@ -1,0 +1,26 @@
+.countdown-wrapper {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    margin-left:100px;
+    margin-top:40px;
+    margin-bottom:22px;
+}
+
+.time-section {
+    padding: 0px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white!important;
+}
+.time {
+    color:white;
+    margin: 0;
+    font-size: 30px !important;
+    font-weight: 800 !important;
+}
+.small {
+    font-size: 18px !important;
+}

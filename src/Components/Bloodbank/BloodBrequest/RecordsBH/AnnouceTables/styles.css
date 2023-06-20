@@ -1,0 +1,77 @@
+.Customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top:50px;
+  }
+  
+  .Customers td, .Customers th {
+    border: 1px solid #ddd;
+    width: 25%;    
+    padding: 8px;
+  }
+  
+  .Customers tr{
+    background:transparent;
+    color:white;
+  }; 
+  .Customers tr:hover {background-color: #ddd;}
+  
+  .Customers th {
+    padding-top: 12px;
+    width: 15%;
+    padding-bottom: 12px;
+    text-align: center;
+    background:transparent;
+    box-shadow: 0 0px 10px white, 0 6px 6px rgba(0,0,0,0.23);
+    color:#D1D5DB;
+  }
+  .PNew{
+    margin-top:-40px;
+}
+.Serach-button {
+	color: #fff;
+    background-color: rgb(207 190 185 / 32%);
+    box-shadow: 0 0px 10px white, 0 6px 6px rgba(0,0,0,0.23);
+	font-weight: 400;
+	height: 60px;
+	font-size: 14px;
+	border: none;
+	width: 20%;
+	border-radius: 10px;
+	text-transform: uppercase;
+    font-weight:bold;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+    margin-top:20px;
+}
+
+.Serach-button:hover,
+.Serach-button:focus {
+	opacity: 0.9;
+}
+.Search-input{
+    color: #fff;
+    box-shadow: 0 0px 10px white, 0 6px 6px rgba(0,0,0,0.23);
+	font-weight: 400;
+	height: 60px;
+	font-size: 14px;
+	border: none;
+	width: 20%;
+	border-radius: 10px;
+	text-transform: uppercase;
+    font-weight:bold;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+    margin-top:20px;
+
+}
+.Serach-input:hover,
+.Serach-input:focus {
+	opacity: 0.9;
+}
+.Search-from{
+    display:flex;
+    justify-content:end;
+}
+

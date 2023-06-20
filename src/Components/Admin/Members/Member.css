@@ -1,0 +1,11 @@
+.Adminh1 {
+color: #D1D5DB;
+}
+
+.Adminh1 .content {
+  background-image: linear-gradient(to right, rgba(235, 169, 179, 0.58), rgba(152, 11, 33, 0.98));
+}
+
+.Adminh1 p {
+color: #9CA3AF;
+}
